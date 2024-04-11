@@ -1,0 +1,23 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
+  color: #141720;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-disc {
+  background: #0084f7 !important;
+  color: #f2f4fa !important;
+}

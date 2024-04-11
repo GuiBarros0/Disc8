@@ -1,0 +1,41 @@
+.header-bg {
+  background: #141720;
+}
+
+.header-menu {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.header-menu ul:nth-child(2) {
+  justify-content: end;
+}
+
+.header-menu ul {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  gap: 20px;
+}
+
+.button-premium {
+  background: #4f4031 !important;
+  color: #ffbd59 !important;
+}
+
+@media (max-width: 768px) {
+  .header-menu {
+    grid-template-columns: 1fr;
+  }
+  .header-menu ul:nth-child(2) {
+    grid-area: 2 / 1;
+    justify-content: start;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 450px) {
+  .header-menu ul:nth-child(2) {
+    flex-wrap: wrap;
+    margin-top: 0px;
+    gap: 30px;
+  }
+}

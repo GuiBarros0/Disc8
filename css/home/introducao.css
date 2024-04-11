@@ -1,0 +1,167 @@
+.introducao-bg {
+  background-image: url("../../img/fundo.jpeg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% 40%;
+}
+
+.card h1 {
+  color: #fff;
+  font-size: 2.3rem;
+}
+
+.card p {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.introducao img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  overflow: hidden;
+}
+
+.card {
+  width: 400px;
+  height: 450px;
+  padding: 20px;
+  background: rgba(63, 43, 43, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: auto;
+  margin-top: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.card:nth-child(1) {
+  height: 300px;
+  align-items: center;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.card:nth-child(2) {
+  grid-area: 1/-1;
+}
+
+.teste {
+  height: 300px;
+}
+
+@media (max-width: 940px) {
+  .card h1 {
+    color: #fff;
+    font-size: 1.8em;
+  }
+
+  .card p {
+    color: #fff;
+    font-size: 1.1rem;
+  }
+  .card {
+    width: 350px;
+    height: 400px;
+  }
+  .card:nth-child(1) {
+    height: 280px;
+  }
+}
+@media (max-width: 830px) {
+  .introducao h1 {
+    color: #fff;
+    font-size: 1.3rem;
+  }
+
+  .introducao p {
+    color: #fff;
+    font-size: 0.875rem;
+  }
+  .card {
+    width: 300px;
+    height: 350px;
+  }
+  .card img {
+    height: 160px;
+    width: 100%;
+  }
+
+  .card:nth-child(1) {
+    height: 300px;
+  }
+}
+
+@media (max-width: 724px) {
+  .introducao h1 {
+    color: #fff;
+    font-size: 1.1rem;
+  }
+
+  .introducao p {
+    color: #fff;
+    font-size: 0.875rem;
+  }
+  .card {
+    width: 250px;
+    height: 360px;
+  }
+  .card img {
+    height: 160px;
+    width: 100%;
+  }
+
+  .card:nth-child(1) {
+    height: 340px;
+  }
+}
+
+@media (max-width: 625px) {
+  .introducao h1 {
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .introducao p {
+    color: #fff;
+    font-size: 0.875rem;
+  }
+  .card {
+    width: 200px;
+    height: 300px;
+  }
+  .card img {
+    height: 160px;
+    width: 100%;
+  }
+
+  .card:nth-child(1) {
+    height: 400px;
+  }
+  .card:nth-child(2) img {
+    display: none;
+  }
+  .button {
+    width: 9ch;
+  }
+}
+
+@media (max-width: 525px) {
+  .card:nth-child(2) {
+    display: none;
+  }
+  .card:nth-child(1) {
+    grid-column: 2;
+  }
+}
