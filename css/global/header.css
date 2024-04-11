@@ -22,7 +22,7 @@
   color: #ffbd59 !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 773px) {
   .header-menu {
     grid-template-columns: 1fr;
   }
