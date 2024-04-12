@@ -56,11 +56,6 @@
 .card:nth-child(2) {
   grid-area: 1/-1;
 }
-
-.teste {
-  height: 300px;
-}
-
 @media (max-width: 940px) {
   .card h1 {
     color: #fff;

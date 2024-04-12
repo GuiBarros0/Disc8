@@ -1,0 +1,145 @@
+.parceiros-bg {
+  background: #258c9c;
+  height: 220px;
+  width: 100vw;
+}
+
+.parceiros-itens h1 {
+  color: var(--cor-1);
+  max-width: 20ch;
+  font-size: 1.9rem;
+}
+
+.parceiros-itens {
+  padding-top: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parceiros-content ul {
+  gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.parceiros-content ul li {
+  background: linear-gradient(
+    to left top,
+    rgba(156, 224, 206, 0.1),
+    rgba(156, 224, 206, 0.5)
+  );
+  border-radius: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.teste {
+  height: 300px;
+}
+
+@media (max-width: 1200px) {
+  .parceiros-itens h1 {
+    font-size: 1.5rem;
+  }
+  .parceiros-bg {
+    height: 200px;
+  }
+  .parceiros-content ul {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .parceiros-bg {
+    height: 200px;
+  }
+  .parceiros-itens h1 {
+    font-size: 1.2rem;
+  }
+  .parceiros-content ul {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 985px) {
+  .parceiros-bg {
+    height: 200px;
+  }
+  .parceiros-itens h1 {
+    font-size: 1.2rem;
+  }
+  .parceiros-content ul {
+    gap: 20px;
+  }
+
+  .parceiros-content ul li img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 930px) {
+  .parceiros-bg {
+    height: 200px;
+  }
+  .parceiros-itens {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .parceiros-itens h1 {
+    font-size: 1.4rem;
+  }
+  .parceiros-itens {
+    padding-top: 20px;
+  }
+  .parceiros-itens h1 {
+    max-width: none;
+  }
+}
+
+@media (max-width: 740px) {
+  .parceiros-bg {
+    height: 200px;
+  }
+  .parceiros-content ul {
+    gap: 10px;
+  }
+}
+@media (max-width: 679px) {
+  .parceiros-bg {
+    height: 230px;
+  }
+}
+
+@media (max-width: 668px) {
+  .parceiros-bg {
+    height: 350px;
+  }
+}
+
+@media (max-width: 549px) {
+  .parceiros-content ul {
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .parceiros-content ul li img {
+    width: 75px;
+  }
+  .parceiros-bg {
+    height: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .parceiros-itens h1 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .parceiros-bg {
+    height: 430px;
+  }
+  .parceiros-itens h1 {
+    font-size: 1.2rem;
+  }
+}
