@@ -11,8 +11,8 @@
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background: #f1f1f1;
-  color: #141720;
+  background: rgba(62, 59, 76, 0.9);
+  color: var(--cor-1);
   font-weight: bold;
   cursor: pointer;
 }

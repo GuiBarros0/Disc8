@@ -34,10 +34,6 @@
   padding-right: 5px;
 }
 
-.teste {
-  height: 300px;
-}
-
 @media (max-width: 1200px) {
   .parceiros-itens h1 {
     font-size: 1.5rem;
