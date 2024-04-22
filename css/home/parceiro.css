@@ -148,3 +148,25 @@
     max-width: 20ch;
   }
 }
+
+.js .js-parceiros li {
+  opacity: 0;
+  transform: translate3d(0, 100%, 0);
+  transition: 0.3s;
+}
+
+.js .js-parceiros li.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 0.3s;
+}
+.js .js-conteudo {
+  opacity: 0;
+  transform: translate3d(0, 15%, 0);
+  transition: 0.3s;
+}
+.js .js-conteudo.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 0.3s;
+}

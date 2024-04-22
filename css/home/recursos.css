@@ -1,6 +1,9 @@
 .recursos-bg {
   background: #272a33;
 }
+.conteudo-text h1 {
+  color: var(--cor-1);
+}
 
 .conteudo-container {
   display: grid;

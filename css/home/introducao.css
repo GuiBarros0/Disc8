@@ -25,6 +25,9 @@
   object-position: center center;
   overflow: hidden;
 }
+.mg-left {
+  margin: auto;
+}
 
 .card {
   width: 400px;
